@@ -1,0 +1,44 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Your Name"
+theme = "portfolio-theme"
+
+# Enable syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Personal website and portfolio"
+  
+  [params.hero]
+    title = "Hi, I'm Your Name"
+    subtitle = "A passionate developer building things for the web"
+  
+  [params.social]
+    github = "yourusername"
+    linkedin = "yourusername"
+    twitter = "yourusername"
+  
+  # Show projects section on homepage
+  showProjects = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[taxonomies]
+  tag = "tags" 

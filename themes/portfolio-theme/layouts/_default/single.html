@@ -1,0 +1,112 @@
+{{ define "main" }}
+<article class="single-page">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}
+        <p class="page-description">{{ . }}</p>
+        {{ end }}
+    </header>
+
+    <div class="page-content">
+        {{ .Content }}
+    </div>
+</article>
+
+<style>
+.single-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.page-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.page-description {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.page-content {
+    line-height: 1.8;
+}
+
+.page-content h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0 1rem;
+}
+
+.page-content h2 {
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color: var(--text-color);
+}
+
+.page-content p {
+    margin-bottom: 1.5rem;
+}
+
+.page-content ul, 
+.page-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.page-content li {
+    margin-bottom: 0.5rem;
+}
+
+.page-content blockquote {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: var(--text-color);
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.page-content hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 2rem 0;
+}
+
+.page-content em {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.page-content strong {
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .page-description {
+        font-size: 1rem;
+    }
+
+    .page-content h1 {
+        font-size: 2rem;
+    }
+
+    .page-content h2 {
+        font-size: 1.75rem;
+    }
+}
+</style>
+{{ end }}

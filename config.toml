@@ -1,0 +1,43 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Mark Hannel"
+theme = "portfolio-theme"
+
+# Enable syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Personal website and portfolio"
+  
+  [params.hero]
+    title = "Hi, I'm Mark"
+    subtitle = "Welcome to my corner of the web where I showcase my projects and share my thoughts"
+  
+  [params.social]
+    github = "markhannel"
+    linkedin = "markhannel"
+  
+  # Show projects section on homepage
+  showProjects = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[taxonomies]
+  tag = "tags" 
