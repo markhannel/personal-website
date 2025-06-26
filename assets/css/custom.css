@@ -1,0 +1,4 @@
+.profile-image {
+  height: 18rem !important; /* 72 instead of 36 */
+  width: 18rem !important;
+} 

@@ -1,0 +1,23 @@
+description = "Personal website and portfolio"
+colorScheme = "blowfish"
+defaultAppearance = "light"
+enableSearch = true
+
+# Custom CSS
+customCSS = ["css/custom.css"]
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  showProfileImage = true
+
+[author]
+  name = "Mark Hannel"
+  image = "img/profile.jpg"
+  headline = "Software Developer & Researcher"
+  imageQuality = 96
+  imageSize = "576x576"
+  links = [
+    { github = "https://github.com/markhannel" },
+    { linkedin = "https://linkedin.com/in/markhannel" }
+  ] 
