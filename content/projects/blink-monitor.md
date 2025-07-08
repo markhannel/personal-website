@@ -13,7 +13,7 @@ I wanted to stop guessing when my local gym would be packed, so I built a person
 
 ## 💾 The Full Story
 
-The Blink
+Blinks app and website offer limited information on how many people are in the gym.
  
 ## 🥃 Distilled Story
 

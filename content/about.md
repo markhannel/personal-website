@@ -9,32 +9,7 @@ I am a Senior Machine Learning Scientist at Impact Observatory where I leverage 
 
 I get excited about opportunities where I leverage my background in physics, mathematics, and computer vision to tackle hard technical challenges with immediate impact.
 
-## The story so far...
-
-
-
-
-## Skills & Expertise
-
-- **Data Science**: HTML5, CSS3, JavaScript (ES6+), React
-- **Cloud Plaforms / Services**: AWS, Azure
-- **Database Management**: PostgreSQL, MongoDB
-- **DevOps**: Docker, Kubernetes, CI/CD
-
-## What I Do
-
-When I'm not coding, you can find me:
-
-- Contributing to open-source projects
-- Writing technical blog posts
-- Mentoring aspiring developers
-- Attending tech conferences and meetups
-- Exploring new technologies and frameworks
 
 ## Let's Connect
 
 I'm always interested in new projects and collaborations. Feel free to reach out through any of my social media channels or send me an email.
-
----
-
-*"The only way to do great work is to love what you do." - Steve Jobs* 
