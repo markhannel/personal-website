@@ -1,23 +1,24 @@
 ---
-title: "Time to lift? Monitoring Blink gym occupancy"
+title: "When Is the Gym Least Crowded? Building a Gym Occupancy Dashboard"
 date: 2025-01-10
 tags: ["Web Scraping", "Grafana", "InfluxDB"]
 ---
 
-This is an example project that showcases the features of this Hugo theme. The project includes:
 
-## Features
+## 📌 TL;DR 
 
-- Clean and modern design
-- Responsive layout
-- Project showcase
-- Tag support
+I wanted to stop guessing when my local gym would be packed, so I built a personal dashboard to tell me.
 
-## Technical Details
+![Gym Dashboard](/images/projects/Blink-Monitor-Example.png)
 
-The project was built using:
+## 💾 The Full Story
 
-- Hugo static site generator
-- HTML5 and CSS3
-- Responsive design principles
-- Modern CSS features like CSS variables 
+The Blink
+ 
+## 🥃 Distilled Story
+
+- Deployed a script to scrape real-time gym occupancy data from Blink's exposed API
+- Stored the data in a time-series database (InfluxDB) for efficient querying and retention
+- Visualized occupancy trends using a Grafana dashboard for monitoring and analysis
+
+## 🚀 Next Steps 
